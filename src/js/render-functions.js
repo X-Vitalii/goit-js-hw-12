@@ -73,3 +73,13 @@ export function hideLoader() {
   const loader = document.querySelector('.loader');
   loader?.classList.remove('active');
 }
+
+export function showLoadMoreButton() {
+  const addMore = document.querySelector('.addMore');
+  addMore?.classList.add('active');
+}
+
+export function hideLoadMoreButton() {
+  const addMore = document.querySelector('.addMore');
+  addMore?.classList.remove('active');
+}
