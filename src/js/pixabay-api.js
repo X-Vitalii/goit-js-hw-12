@@ -11,7 +11,7 @@ export function getImagesByQuery(query) {
     image_type: 'photo',
     orientation: 'horizontal',
     safesearch: true,
-    per_page: '15',
+    per_page: 15,
     page: 1,
   };
   return axios('', { params }).then(({ data }) => {
