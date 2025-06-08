@@ -99,6 +99,14 @@ button:focus {
   background-color: #6c8cff;
 }
 
+.addMore {
+  display: none;
+}
+
+.addMore.active {
+  display: block;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -206,12 +214,3 @@ button:focus {
 .hidden {
   display: none !important;
 }
-
-/* @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} */

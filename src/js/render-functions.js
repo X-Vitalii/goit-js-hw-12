@@ -61,7 +61,8 @@ export function createGallery(images) {
 }
 
 export function clearGallery() {
-  //container clean
+  const imagesList = document.querySelector('.gallery');
+  imagesList.innerHTML = '';
 }
 
 export function showLoader() {
